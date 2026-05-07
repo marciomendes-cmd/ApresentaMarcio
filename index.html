@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overtech Security - Executive Briefing</title>
+    <style>
+        /* Remove margens e trava a tela para não ter barra de rolagem dupla */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            background-color: #1a1a1a; /* Fundo escuro corporativo */
+        }
+        /* Faz o PDF ocupar 100% da tela */
+        .pdf-viewer {
+            width: 100%;
+            height: 100vh;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- O navegador renderiza o PDF nativamente aqui -->
+    <embed src="apresentacao.pdf" type="application/pdf" class="pdf-viewer" />
+
+</body>
+</html>
